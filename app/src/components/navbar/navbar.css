@@ -1,0 +1,31 @@
+
+.navbar{
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.navbarIcon {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.navbarImg {
+    width: 31.31px;
+    height: 26.22px;
+    margin-right: 10px;
+}
+
+.navbarTitle {
+    font-size: 20.7482px;
+line-height: 24px;
+letter-spacing: -0.1em;
+}
