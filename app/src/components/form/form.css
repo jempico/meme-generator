@@ -1,4 +1,61 @@
-.form {
+.formContainer {
     height: 485px;
     background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.meme {
+    padding: 37px 55px 36px 36px;
+} 
+
+.form {
+    height: 125px;
+    padding: 37px 37px 0px 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formInputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+} 
+
+.formInput {
+    width: 230px;
+    height: 35px;
+    border-color: #D5D4D8;
+    border-style:solid;
+    border-radius: 5px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 11px;
+    margin: 8px;
+} 
+
+.formSubmit {
+    width: 477px;
+    height: 40px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    color:  #FFFFFF;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 10px;
+    border-style:none;
+    border-radius: 5px;
+}
+
+.formInput:focus, textarea:focus, select:focus{
+    outline: none;
 }
