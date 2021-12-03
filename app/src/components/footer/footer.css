@@ -1,4 +1,19 @@
 .footer {
     height: 35px;
-    background-color: plum;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+a {
+   color: #FFFFFF;
 }

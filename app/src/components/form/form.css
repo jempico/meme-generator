@@ -1,12 +1,12 @@
 .formContainer {
     height: 485px;
-    background-color: powderblue;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
 
 .meme {
-    padding: 37px 55px 36px 36px;
+    padding: 50px 55px 23px 36px;
 } 
 
 .form {
@@ -52,7 +52,7 @@
     color:  #FFFFFF;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     padding: 10px;
-    border-style:none;
+    border:none;
     border-radius: 5px;
 }
 

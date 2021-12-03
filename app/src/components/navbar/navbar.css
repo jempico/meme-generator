@@ -30,7 +30,8 @@
 .navbarTitle {
     font-size: 20.7482px;
     font-family: 'Karla', sans-serif;
-  
+    letter-spacing: 0.1px;
+
 }
 
 .navbarSubtitle {
@@ -42,4 +43,5 @@
     line-height: 15px;
     text-align: right;
     color: #FFFFFF;
+    letter-spacing: 0.8px;
 }
