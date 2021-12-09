@@ -7,7 +7,12 @@
 
 .meme {
     padding: 50px 55px 23px 36px;
+    
 } 
+
+.meme > img:hover {
+    filter: brightness(50%);
+}
 
 .form {
     height: 125px;
