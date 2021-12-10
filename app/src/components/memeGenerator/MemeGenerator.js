@@ -2,13 +2,13 @@ import "./memeGenerator.css"
 import Navbar from "../navbar/Navbar";
 import Form from "../form/Form";
 import Footer from "../footer/Footer";
-import "./memeGenerator.css"
+import memesData from "../../memesData.js";
 
-export default function MemeGenerator(props) {
+export default function MemeGenerator() {
     return (
         <div className="meme_container">
-            <Navbar title={props.title}/>
-            <Form />
+            <Navbar title="Meme Generator"/>
+            <Form data={memesData.data.memes}/>
             <Footer />
         </div>
     )

@@ -1,6 +1,19 @@
 import "./form.css"
+import {useState} from "react";
 
-export default function Form () {
+export default function Form (props) {
+    function generateNewMeme() {
+        let arrayMeme = props.data;
+        let randomNum = Math.floor(Math.random() * arrayMeme.length);
+        let memeURL = arrayMeme[randomNum].url
+        return memeURL;
+    }
+
+    const [currentMeme, setMeme] = useState(generateNewMeme())
+    
+    function setNewMeme () {
+        setMeme(generateNewMeme());
+    }
     return(
         <main className="formContainer">
             <div className="form">
@@ -8,10 +21,10 @@ export default function Form () {
                     <input className="formInput" type="text" placeholder="Shut up:"/>
                     <input className="formInput"type="text" placeholder="and take my money:"/>
                 </div>
-                <button className="formSubmit">Get a new meme image  🖼</button>
+                <button onClick={setNewMeme}className="formSubmit">Get a new meme image  🖼</button>
             </div>
-            <div className="meme">
-                <img src="memeimg.png" alt=""></img>
+            <div >
+                <img className="meme" src={currentMeme} alt=""></img>
             </div>
         </main>
     )
