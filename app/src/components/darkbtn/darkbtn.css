@@ -1,0 +1,18 @@
+.dark_btn {
+    width: 100px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #0e0312 1.14%, #575657 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

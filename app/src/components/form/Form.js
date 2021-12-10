@@ -1,5 +1,6 @@
 import "./form.css"
 import {useState} from "react";
+import DarkBtn from "../darkbtn/Darkbtn"
 
 export default function Form (props) {
     function generateNewMeme() {
@@ -8,15 +9,22 @@ export default function Form (props) {
         let memeURL = arrayMeme[randomNum].url
         return memeURL;
     }
-
-    const [currentMeme, setMeme] = useState(generateNewMeme())
+    let memeObj = { 
+        topText: '', 
+        bottomText: '', 
+        randomImage: generateNewMeme()
+    }
+    const [currentMeme, setMeme] = useState(memeObj)
     
     function setNewMeme () {
-        setMeme(generateNewMeme());
+        setMeme(prevState => {
+            return {...prevState, randomImage: generateNewMeme()}
+        });
     }
     return(
         <main className="formContainer">
             <div className="form">
+                <DarkBtn/>
                 <div className="formInputContainer">                    
                     <input className="formInput" type="text" placeholder="Shut up:"/>
                     <input className="formInput"type="text" placeholder="and take my money:"/>
@@ -24,7 +32,7 @@ export default function Form (props) {
                 <button onClick={setNewMeme}className="formSubmit">Get a new meme image  🖼</button>
             </div>
             <div >
-                <img className="meme" src={currentMeme} alt=""></img>
+                <img className="meme" src={currentMeme.randomImage} alt=""></img>
             </div>
         </main>
     )
