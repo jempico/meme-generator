@@ -1,13 +1,10 @@
 import "./darkbtn.css"
-import {useState} from "react";
 
-export default function Darkbtn () {
-    
-
+export default function Darkbtn (props) {
     
     return(
         <div className="btn_wrapper">
-        <button className="dark_btn">Dark Mode
+        <button className="dark_btn" onClick={props.handleClick}>Dark Mode
         </button>
         </div>
     )

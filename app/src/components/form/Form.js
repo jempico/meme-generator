@@ -21,10 +21,19 @@ export default function Form (props) {
             return {...prevState, randomImage: generateNewMeme()}
         });
     }
+
+    const [isDarkMode, setDarkMode] = useState(false);
+    function switchDarkMode() {
+        setDarkMode(prevState => { return !prevState })
+    }
+
+    let darkMode = {
+        backgroundColor: isDarkMode ? "#222222" : "#ffffff"
+    }
     return(
-        <main className="formContainer">
+        <main className="formContainer" style={darkMode}>
             <div className="form">
-                <DarkBtn/>
+                <DarkBtn handleClick={switchDarkMode}/>
                 <div className="formInputContainer">                    
                     <input className="formInput" type="text" placeholder="Shut up:"/>
                     <input className="formInput"type="text" placeholder="and take my money:"/>

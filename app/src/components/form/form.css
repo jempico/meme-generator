@@ -1,6 +1,5 @@
 .formContainer {
     height: 485px;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
