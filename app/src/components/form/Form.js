@@ -23,7 +23,7 @@ export default function Form (props) {
     }
 
     const [isDarkMode, setDarkMode] = useState(false);
-    function switchDarkMode() {
+    function toggleDarkMode() {
         setDarkMode(prevState => { return !prevState })
     }
 
@@ -33,7 +33,7 @@ export default function Form (props) {
     return(
         <main className="formContainer" style={darkMode}>
             <div className="form">
-                <DarkBtn handleClick={switchDarkMode}/>
+                <DarkBtn handleClick={toggleDarkMode} on={isDarkMode}/>
                 <div className="formInputContainer">                    
                     <input className="formInput" type="text" placeholder="Shut up:"/>
                     <input className="formInput"type="text" placeholder="and take my money:"/>
