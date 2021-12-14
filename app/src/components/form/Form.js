@@ -1,19 +1,23 @@
 import "./form.css"
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import DarkBtn from "../darkbtn/Darkbtn"
-import memesData from "../../memesData.js";
 
 export default function Form () {
 
     //Local state for imported meme data json
-    const [allMemeImages, setAllMemeImages] = useState(memesData)
+    const [allMemeImages, setAllMemeImages] = useState([])
 
-
+    //Fetching Data from external API
+    useEffect(()=> {
+        fetch("https://api.imgflip.com/get_memes")
+            .then(res => res.json())
+            .then(data => setAllMemeImages(data.data.memes))
+    }, [])
+    
     //Utility function that generates new meme URL
     function generateNewMemeUrl() {
-        let arrayMeme = allMemeImages.data.memes;
-        let randomNum = Math.floor(Math.random() * arrayMeme.length);
-        let memeURL = arrayMeme[randomNum].url
+        let randomNum = Math.floor(Math.random() * allMemeImages.length);
+        let memeURL = allMemeImages[randomNum].url
         return memeURL;
     }
 
