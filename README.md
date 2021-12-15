@@ -22,7 +22,6 @@
 
 As part of my React learning journey, I've built a simple random meme generator. This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
 
-Here's the <a href="https://www.figma.com/file/yYr9AXxXo5hmMVJu9vhBhK/Meme-Generator-(Copy)?node-id=0%3A1">Figma file.</a> 🖌️ 
 
 Here's a look at other projects I've built during the course: 👀
 
@@ -30,6 +29,14 @@ Here's a look at other projects I've built during the course: 👀
 ⚛️ A notes app <br />
 ⚛️ A Tenzies game <br />
  
+<!-- SCREENSHOTS -->
+## Screenshots 
+
+Here's the <a href="https://www.figma.com/file/yYr9AXxXo5hmMVJu9vhBhK/Meme-Generator-(Copy)?node-id=0%3A1">Figma file.</a> 🖌️ 
+<img width="546" alt="Screenshot 2021-12-15 at 11 56 04" src="https://user-images.githubusercontent.com/25463174/146174319-7b8b5f7f-1341-403c-b6c8-934a7263bc81.png">
+
+
+
 <!-- GETTING STARTED -->
 ## Installation
 
