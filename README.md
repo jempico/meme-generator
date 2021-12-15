@@ -12,7 +12,7 @@
   <p align="center">
     My first interactive React app!
     <br />
-    <a href="https://jempico.com"><strong>View Demo »</strong></a>
+    <a href="https://goofy-cray-6e55be.netlify.app/"><strong>View Demo »</strong></a>
     <br />
   </p>
 </div>
