@@ -22,6 +22,8 @@
 
 A simple random meme generator built with React. This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
 
+Here's the <a href="https://www.figma.com/file/yYr9AXxXo5hmMVJu9vhBhK/Meme-Generator-(Copy)?node-id=0%3A1">Figma file.</a> 🖌️ 
+
 Here's a look at other projects I've built during the course: 👀
 
 ⚛️ An AirBnB experiences clone <br />
