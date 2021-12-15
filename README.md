@@ -41,7 +41,7 @@ Here's the <a href="https://www.figma.com/file/yYr9AXxXo5hmMVJu9vhBhK/Meme-Gener
 <!-- GETTING STARTED -->
 ## Installation
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
