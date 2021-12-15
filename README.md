@@ -20,7 +20,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A simple random meme generator built with React. This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
+As part of my React learning journey, I've built a simple random meme generator. This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
 
 Here's the <a href="https://www.figma.com/file/yYr9AXxXo5hmMVJu9vhBhK/Meme-Generator-(Copy)?node-id=0%3A1">Figma file.</a> 🖌️ 
 
