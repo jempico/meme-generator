@@ -20,8 +20,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-As part of my React learning journey, I've built a simple random meme generator. This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
+As part of my React learning journey, I've built a simple random meme generator. It takes a series of random images from an external API, and allows the user to add some "meme-styled" text. 
 
+This app was built while following the course <a href="https://scrimba.com/learn/learnreact">Learn React For Free (updated)</a> by Bob Ziroll on Scrimba. 
 
 Here's a look at other projects I've built during the course: 👀
 
